@@ -18,6 +18,7 @@ body {
 main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 section {
@@ -57,6 +58,7 @@ button {
   height: 50px;
   border-radius: 25px;
   background-color: hsl(0, 0%, 95%);
+  font-weight: bold;
 }
 
 #sedans {
